@@ -1,5 +1,6 @@
 body{
     background-color: #1e272e;
+    color:lightcyan;
 }
 .navbar-container{
 display: flex;
@@ -9,11 +10,12 @@ margin: 0.5rem;
 height:4rem;
 width:100vw;
 /* background-color: red; */
-color: rgb(196, 193, 193)
+color: rgb(196, 193, 193);
+
 }
 
 .banner-card{
-    height:50vh;
+    height:60vh;
     width: 100%;
     /* background-color: blue; */
     position:relative;
@@ -47,7 +49,7 @@ color: rgb(196, 193, 193)
     margin-top:5rem;
     /* align-items: center; */
     /* justify-content; */
-    height: 40vh;
+    /* height: 60vh; */
     
 }
 
@@ -75,6 +77,13 @@ color: rgb(196, 193, 193)
    
 }
 .home-movies-card{
-    /* height:30vh; */
+    height:30vh;
     width:20vw;
+    /* height: 40vh; */
+}
+
+input{
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    
 }
